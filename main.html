@@ -8,7 +8,60 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+	 <!-- Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <br><br>
+
+		<!--Gender-->
+			<label>Gender:</label><br>
+		<input type="radio" id="gender_m" name="gender" value="male">
+		<label for="gender_m">Male</label><br>
+
+		<input type="radio" id="gender_f" name="gender" value="female">
+		<label for="gender_f">Female</label><br><br>
+
+	<!--CAR BRANDS-->
+	<label for="cars">Car Brands:</label><br>
+	<select id="cars" name="cars" required>
+	  <option value="">--Please choose an option--</option>
+	  <option value="toyota">Toyota</option>
+	  <option value="honda">Honda</option>
+	  <option value="ford">Ford</option>
+	  <option value="bmw">BMW</option>
+	  <option value="tesla">Tesla</option>
+		</select> 
+	<br><br>
+
+	<label for="age">Age:</label>
+        <input type="age" id="age" name="age" placeholder="Age" required>
+        <br><br>
+
+	<label for="dob">D.O.B.:</label>
+        <input type="dob" id="dob" name="dob" placeholder="___/___/____" required>
+        <br><br>
+
+
+	<label for="phone number">Phone Number:</label>
+        <input type="phone number" id="phone number" name="phone number" placeholder="xxx-xxx-xxxx" required>
+        <br><br>
+	
+	<label for="Password">Password:</label>
+        <input type="Password" id="Password" name="Password" placeholder="Password" required>
+        <br><br>
+
+
+		<input type="checkbox" id="agree" name="agree" required>
+       <label for="agree">I agree to the terms and conditions</label>
+
+	
+    
+	<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
